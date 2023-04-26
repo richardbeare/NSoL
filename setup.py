@@ -13,9 +13,9 @@ import os
 
 from setuptools import setup, find_packages
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-
+#with open("README.md", "r") as fh:
+#    long_description = fh.read()
+long_description = "Removed - meant to be README.md"
 
 about = {}
 base_dir = os.path.dirname(__file__)
